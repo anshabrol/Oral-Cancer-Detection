@@ -19,15 +19,15 @@ This project focuses on the **early detection of oral cancer** using deep learni
 - Image cleaning, resizing, and augmentation.  
 
 ### 2. Model Development  
-- CNN / Transfer Learning models (e.g., **VGG16, ResNet, EfficientNet**).  
+- CNN / Transfer Learning models (e.g., **VGG16, VGG19, ResNet, EfficientNet**).  
 
 ### 3. Training & Evaluation  
 - Training with different hyperparameters.  
 - Metrics: **Accuracy, Precision, Recall, F1-score, ROC-AUC**.  
 
 ### 4. Deployment  
-- Model saved in `.h5` / `.pt` format.  
-- Simple **web-app / notebook-based interface** for prediction.  
+- Model saved in **Jupyter Notebook (`.ipynb`)** format.  
+- Simple **notebook-based interface** for prediction.  
 
 ## 🚀 Tech Stack  
 - **Programming Language**: Python  
@@ -39,7 +39,7 @@ This project focuses on the **early detection of oral cancer** using deep learni
 - **Deployment Options**: Streamlit / Flask (optional)  
 
 ## 📊 Results  
-- Achieved **XX% accuracy** on validation set.  
+- Achieved **91% accuracy with VGG19** on validation set.  
 - Model shows promising results in distinguishing **oral cancer from healthy images**.  
 - Evaluation includes **confusion matrix and ROC curve**.  
 
